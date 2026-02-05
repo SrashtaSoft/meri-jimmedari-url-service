@@ -65,6 +65,6 @@ Recommended: **Cloudflare Pages**
 4. Set environment variables in Cloudflare dashboard
 5. Configure custom domain: `mzno.in`
 
-## License
+### License
 
 MIT
