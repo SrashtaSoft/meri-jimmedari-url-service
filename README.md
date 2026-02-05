@@ -55,7 +55,7 @@ Copy `.env.example` to `.env` and configure:
 VITE_API_BASE_URL=https://api.meri-jimmedari.srashtasoft.in
 ```
 
-## Deployment
+### Deployment
 
 Recommended: **Cloudflare Pages**
 
