@@ -88,7 +88,7 @@ function showLoading(): void {
   content.innerHTML = `
     <div class="loading">
       <div class="spinner"></div>
-      <p>Redirecting...</p>
+      <p>Verifying session ..</p>
     </div>
   `;
 }
@@ -130,8 +130,8 @@ async function resolveAndRedirect(): Promise<void> {
     }
 
     if (response.status === 404) {
-      // Not found
-      showError('NOT_FOUND', 'This link does not exist.');
+      // Invalid link: redirect to main site without showing error UI
+      window.location.href = 'https://meri-jimmedari.srashtasoft.in/';
       return;
     }
 
