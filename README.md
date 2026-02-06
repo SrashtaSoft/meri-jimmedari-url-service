@@ -1,7 +1,7 @@
 # Meri Zimmedari URL Shortener Frontend
 
 A minimal, fast redirect service for the Meri Zimmedari platform's URL shortener.
-hi.
+hi..
 ## Purpose
 
 This frontend resolves short URLs (e.g., `https://mzno.in/abc12345`) and redirects users to the full platform URLs. It's designed to work with DLT SMS templates which have a 30-character URL limit.
